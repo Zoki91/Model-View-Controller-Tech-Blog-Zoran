@@ -5,8 +5,8 @@ const bcrypt = require('bcrypt');
 // MVC Homework Mini Project 28
 
 class User extends Model {
-  passwordCheck(loginPW) {
-    return bcrypt.compareSync(loginPW, this.password)
+  passwordCheck(login) {
+    return bcrypt.compareSync(login, this.password)
   }
 }
 
@@ -26,16 +26,12 @@ User.init(
       type: DataTypes.STRING,
       allowNull: false,
       unique: true,
-      validate: {
-        isEmail: true
-      }
+      validate: {isEmail: true}
     },
     password: {
       type: DataTypes.STRING,
       allowNull: false,
-      validate: {
-        len: [8]
-      }
+      validate: {len: [4]}
     }
   },
   {

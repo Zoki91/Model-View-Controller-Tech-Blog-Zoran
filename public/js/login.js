@@ -1,3 +1,5 @@
+// Home Work - Mini Project 28 & Term 2 Project 
+
 const loginForm = async (event) => {
 
   event.preventDefault();
@@ -18,7 +20,7 @@ const loginForm = async (event) => {
     if (response.ok) {
       // If successful, redirect the browser to the profile page
 
-      document.location.replace('/myaccount');
+      document.location.replace('/dashboard');
     } else {
       alert(response.statusText);
     }

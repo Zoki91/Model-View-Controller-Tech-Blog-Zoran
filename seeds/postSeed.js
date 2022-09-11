@@ -15,18 +15,18 @@ const postData = [
     },
     {
         title: "Crypto's biggest powerhouse flexes on its competition",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus malesuada luctus sem, at commodo leo",
+        text: "CoinDesk on Friday unveiled a new index of digital-asset prices, saying it hopes the broad gauge of crypto markets could become an industry benchmark similar to the stock market's Dow Jones Industrial Average or Standard & Poor's 500",
         user_id: 2
 
     },
     {
         title: "Microsoft is testing its tablet-friendly taskbar again in Windows 11",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus malesuada luctus sem, at commodo leo",
+        text: "Microsoft is reintroducing its tablet-friendly taskbar in the latest preview of Windows 11. The taskbar was first introduced in February alongside other new features included for eventual rollout in Windows 11, but it was later pulled for more internal development",
         user_id: 5
     },
     {
         title: "Here's how the new Apple Watches compare to each other on paper",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus malesuada luctus sem, at commodo leo",
+        text: "At the bottom of the new lineup, the new Apple Watch SE continues the 2020 SE's formula. It's the “bargain” model, sacrificing niceties like an always-on display for the sake of a much lower price",
         user_id: 4
     }
 ]

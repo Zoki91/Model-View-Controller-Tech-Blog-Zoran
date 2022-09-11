@@ -1,13 +1,17 @@
+// Modules to Import
 const router = require('express').Router();
+const homeRoutes = require('./homeRoutes');
+const dashBoardRoutes = require('./dashboardRoutes');
+const apiRoutes = require('./api');
 
 // Path for Homepage
-router.use("/", require("./homeRoutes"));
+router.use("/", homeRoutes)
 
 // Path for Dashboard Page
-router.use("/dashboard", require("./dashboardRoutes"));
+router.use("/dashboard", dashBoardRoutes);
 
 //Path for all API
-router.use("/api", require("./api"));
+router.use("/api", apiRoutes);
 
 
 module.exports = router;

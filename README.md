@@ -13,6 +13,7 @@ Your challenge this week is to build a CMS-style blog site similar to a Wordpres
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
+- [Heroku Link](#heroku-link)
 - [License](#license)
 - [Screenshots](#screenshots)
 - [Questions](#questions)
@@ -23,18 +24,21 @@ Your challenge this week is to build a CMS-style blog site similar to a Wordpres
 In order to install this project, you will need to run `npm install` on your terminal and run the command `node server.js` to get started.
 #
 ## Usage
-You can use this program in your node.js terminal, VS Code terminal or any other windows terminal. Simply open the index.js file in the terminal at your desired path location and input `node server.js`
+You can use this program in your node.js terminal, VS Code terminal or any other windows terminal. Simply open the index.js file in the terminal at your desired path location and input `node server.js` Or just click the the link below and open in the Heroku Link.
 #
-
+## Heroku Link
+Click the link to go to the Heroky Deployment to view this live [HEROKU LINK](https://note-taker-zoran.herokuapp.com/)
+#
 ## License
 [![License](https://img.shields.io/apm/l/vim-mode)](https://choosealicense.com/licenses/mit/)
 #
 ## Screenshots
 
-![App Screenshot]()
+![App Screenshot](https://i.postimg.cc/KjJFDY6c/localhost-3001.png)
 #
-![App Screenshot]()
-
+![App Screenshot](https://i.postimg.cc/L5H2PP00/localhost-3001-dashboard-create.png)
+#
+![App Screenshot](https://i.postimg.cc/vBwQQk7y/localhost-3001-dashboard-edit-2.png)
 #
 
 ## Questions
