@@ -27,7 +27,7 @@ In order to install this project, you will need to run `npm install` on your ter
 You can use this program in your node.js terminal, VS Code terminal or any other windows terminal. Simply open the index.js file in the terminal at your desired path location and input `node server.js` Or just click the the link below and open in the Heroku Link.
 #
 ## Heroku Link
-Click the link to go to the Heroky Deployment to view this live [HEROKU LINK](https://note-taker-zoran.herokuapp.com/)
+Click the link to go to the Heroky Deployment to view this live [HEROKU LINK](https://app-mvc-tech-blog.herokuapp.com/)
 #
 ## License
 [![License](https://img.shields.io/apm/l/vim-mode)](https://choosealicense.com/licenses/mit/)

@@ -1,4 +1,4 @@
-// load modules
+// Load all modules
 const express = require('express')
 const path = require('path')
 const session = require('express-session')
@@ -10,7 +10,8 @@ const helpers = require('./utils/helpers');
 const hbs = exphbs.create({ helpers });
 const app = express();
 
-
+// Import seeds
+const setSeeds = require('./seeds');
 
 // import sequelize connection
 const sequelize = require('./config/connection')
@@ -49,6 +50,11 @@ app.use("/img", express.static(path.join(__dirname, "/public/img")));
 
 app.use(routes);
 
-sequelize.sync({ force: false }).then(() => {
-  app.listen(PORT, () => console.log("Now listening http://localhost:" + PORT))
-})
+setSeeds()
+  .then(() => {
+    sequelize.sync({ force: false })
+      .then(() => {
+        app.listen(PORT, () => console.log("Now listening http://localhost:" + PORT))
+      })
+  })
+  .catch(error => console.log(error.message))
