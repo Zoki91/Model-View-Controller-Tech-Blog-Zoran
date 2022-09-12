@@ -28,6 +28,7 @@ You can use this program in your node.js terminal, VS Code terminal or any other
 #
 ## Heroku Link
 Click the link to go to the Heroky Deployment to view this live [HEROKU LINK](https://app-mvc-tech-blog.herokuapp.com/)
+**Please ensure when signing up you use a password of a minimum 8 characters long!!**
 #
 ## License
 [![License](https://img.shields.io/apm/l/vim-mode)](https://choosealicense.com/licenses/mit/)
